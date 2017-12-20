@@ -1,0 +1,6 @@
+use_frameworks!
+target 'WRGcalendar_Tests' do
+  pod 'WRGcalendar', :path => '../'
+  
+  
+end
