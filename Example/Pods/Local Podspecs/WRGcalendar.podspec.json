@@ -1,0 +1,22 @@
+{
+  "name": "WRGcalendar",
+  "version": "0.1.0",
+  "summary": "A short description of WRGcalendar.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Arun WRG/WRGcalendar",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Arun WRG": "arun@whiterabbit.group"
+  },
+  "source": {
+    "git": "https://github.com/Arun WRG/WRGcalendar.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "WRGcalendar/Classes/**/*"
+}

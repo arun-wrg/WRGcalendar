@@ -1,0 +1,6 @@
+framework module Pods_WRGcalendar_Tests {
+  umbrella header "Pods-WRGcalendar_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

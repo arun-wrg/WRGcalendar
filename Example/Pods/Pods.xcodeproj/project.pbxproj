@@ -1,0 +1,560 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		032B05C103898A2243E2FA43FED3714C /* Pods-WRGcalendar_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A0F3971CE45AED793906A0280986341 /* Pods-WRGcalendar_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		337262381DA2558D4B6BCD5552978DCE /* WRGcalendar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D19EE03AF8B4B7DE7722B2CC2680AC22 /* WRGcalendar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		62C42CE01A03AAE190EB2CC53D02F7F4 /* WRGcalendar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C1D503244476C45E49517A8F51020856 /* WRGcalendar-dummy.m */; };
+		8D146B7E6CB8CADE43EBFB247639DA20 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		A6A1D95521AA16883EC2B384E11A61A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		A8066B7E4B14B7832C8F158E4B956C6F /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF68EC7A0515249A3D11C365B95B3074 /* ReplaceMe.swift */; };
+		C4E06EBFBAD3588E84CB41E65AE4C843 /* Pods-WRGcalendar_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 41BC7A6800A6D6C7D59B299CE8B7A9B1 /* Pods-WRGcalendar_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18AED5EC0D74F451A4455051C02EBD76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85D8DCE7536A577CFA244BE252942DC0;
+			remoteInfo = WRGcalendar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08F99D849BF0535068E5694056829724 /* Pods-WRGcalendar_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-WRGcalendar_Tests.modulemap"; sourceTree = "<group>"; };
+		16A98477AE904F788901E5F936FA10F4 /* WRGcalendar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = WRGcalendar.modulemap; sourceTree = "<group>"; };
+		1888838AC4E69BC8F91C87341DC60E73 /* WRGcalendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WRGcalendar.framework; path = WRGcalendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C839FC780DA414D816DCFED25659730 /* Pods-WRGcalendar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WRGcalendar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		211208EE2CCD85655372DE18B95D555F /* Pods-WRGcalendar_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WRGcalendar_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		41BC7A6800A6D6C7D59B299CE8B7A9B1 /* Pods-WRGcalendar_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WRGcalendar_Tests-dummy.m"; sourceTree = "<group>"; };
+		47B2CD3850E18CFE4CE7B69DDF0811D8 /* Pods-WRGcalendar_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WRGcalendar_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4D1F4D00534717DFF29F99D6001370A6 /* Pods-WRGcalendar_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WRGcalendar_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4EF716B1D7CE5676DB8D36C1345C09D0 /* WRGcalendar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WRGcalendar-prefix.pch"; sourceTree = "<group>"; };
+		516639B3858F4C4E0253BB169E540B67 /* Pods-WRGcalendar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WRGcalendar_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		658AE94C6537A1B35317BBA7D018AC7A /* Pods-WRGcalendar_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WRGcalendar_Tests-resources.sh"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		71BC75F88744208E33DE28DFFB4F5414 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A0F3971CE45AED793906A0280986341 /* Pods-WRGcalendar_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WRGcalendar_Tests-umbrella.h"; sourceTree = "<group>"; };
+		7BB56C73679CE88C40D3283CF8274F7D /* Pods_WRGcalendar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WRGcalendar_Tests.framework; path = "Pods-WRGcalendar_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A61BA15276F33404601FAA236B92ADB8 /* WRGcalendar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WRGcalendar.xcconfig; sourceTree = "<group>"; };
+		C1D503244476C45E49517A8F51020856 /* WRGcalendar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WRGcalendar-dummy.m"; sourceTree = "<group>"; };
+		D19EE03AF8B4B7DE7722B2CC2680AC22 /* WRGcalendar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WRGcalendar-umbrella.h"; sourceTree = "<group>"; };
+		E5FB2F4654EDC3CA7448BF619C36D907 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF68EC7A0515249A3D11C365B95B3074 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = WRGcalendar/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		040A6849B71700D2E5A946841AFE30D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6A1D95521AA16883EC2B384E11A61A5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA71C5FC96701D69FD13985431441BE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D146B7E6CB8CADE43EBFB247639DA20 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C13A463128A2A59177E055C4673EDC9 /* Pods-WRGcalendar_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E5FB2F4654EDC3CA7448BF619C36D907 /* Info.plist */,
+				08F99D849BF0535068E5694056829724 /* Pods-WRGcalendar_Tests.modulemap */,
+				47B2CD3850E18CFE4CE7B69DDF0811D8 /* Pods-WRGcalendar_Tests-acknowledgements.markdown */,
+				4D1F4D00534717DFF29F99D6001370A6 /* Pods-WRGcalendar_Tests-acknowledgements.plist */,
+				41BC7A6800A6D6C7D59B299CE8B7A9B1 /* Pods-WRGcalendar_Tests-dummy.m */,
+				211208EE2CCD85655372DE18B95D555F /* Pods-WRGcalendar_Tests-frameworks.sh */,
+				658AE94C6537A1B35317BBA7D018AC7A /* Pods-WRGcalendar_Tests-resources.sh */,
+				7A0F3971CE45AED793906A0280986341 /* Pods-WRGcalendar_Tests-umbrella.h */,
+				1C839FC780DA414D816DCFED25659730 /* Pods-WRGcalendar_Tests.debug.xcconfig */,
+				516639B3858F4C4E0253BB169E540B67 /* Pods-WRGcalendar_Tests.release.xcconfig */,
+			);
+			name = "Pods-WRGcalendar_Tests";
+			path = "Target Support Files/Pods-WRGcalendar_Tests";
+			sourceTree = "<group>";
+		};
+		23494F6A7229799DF0839E9E4A2FC090 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				71BC75F88744208E33DE28DFFB4F5414 /* Info.plist */,
+				16A98477AE904F788901E5F936FA10F4 /* WRGcalendar.modulemap */,
+				A61BA15276F33404601FAA236B92ADB8 /* WRGcalendar.xcconfig */,
+				C1D503244476C45E49517A8F51020856 /* WRGcalendar-dummy.m */,
+				4EF716B1D7CE5676DB8D36C1345C09D0 /* WRGcalendar-prefix.pch */,
+				D19EE03AF8B4B7DE7722B2CC2680AC22 /* WRGcalendar-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WRGcalendar";
+			sourceTree = "<group>";
+		};
+		5C0A08FEFBE275F06F190BEF10C77DA6 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9DC91B0F7F02C694147C9DB33915B8D8 /* WRGcalendar */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				5C0A08FEFBE275F06F190BEF10C77DA6 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				BCB205E936B9D846C0AD4B3540208C5F /* Products */,
+				E598361EE58FC32BA78CF7747578192D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9DC91B0F7F02C694147C9DB33915B8D8 /* WRGcalendar */ = {
+			isa = PBXGroup;
+			children = (
+				FF68EC7A0515249A3D11C365B95B3074 /* ReplaceMe.swift */,
+				23494F6A7229799DF0839E9E4A2FC090 /* Support Files */,
+			);
+			name = WRGcalendar;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BCB205E936B9D846C0AD4B3540208C5F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7BB56C73679CE88C40D3283CF8274F7D /* Pods_WRGcalendar_Tests.framework */,
+				1888838AC4E69BC8F91C87341DC60E73 /* WRGcalendar.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E598361EE58FC32BA78CF7747578192D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1C13A463128A2A59177E055C4673EDC9 /* Pods-WRGcalendar_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		16356CC949F2DFCC6162B6E447F5E0C6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				032B05C103898A2243E2FA43FED3714C /* Pods-WRGcalendar_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1283AA2D533062E3FA2036170C0D7C5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				337262381DA2558D4B6BCD5552978DCE /* WRGcalendar-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1E17C234FB1EEF4D0231C29723959B33 /* Pods-WRGcalendar_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2EEDB412F50BC3CF37952A091E9EB1B /* Build configuration list for PBXNativeTarget "Pods-WRGcalendar_Tests" */;
+			buildPhases = (
+				BA64DF354235EE7B76D45EE75F3AB211 /* Sources */,
+				BA71C5FC96701D69FD13985431441BE6 /* Frameworks */,
+				16356CC949F2DFCC6162B6E447F5E0C6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1CB18FAE4BDDFA522A782BED06B041C4 /* PBXTargetDependency */,
+			);
+			name = "Pods-WRGcalendar_Tests";
+			productName = "Pods-WRGcalendar_Tests";
+			productReference = 7BB56C73679CE88C40D3283CF8274F7D /* Pods_WRGcalendar_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		85D8DCE7536A577CFA244BE252942DC0 /* WRGcalendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 835C930F29C582023A4AD13787DE5F0C /* Build configuration list for PBXNativeTarget "WRGcalendar" */;
+			buildPhases = (
+				B4DE785F26A74F26009DB45E6E3D2847 /* Sources */,
+				040A6849B71700D2E5A946841AFE30D5 /* Frameworks */,
+				A1283AA2D533062E3FA2036170C0D7C5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WRGcalendar;
+			productName = WRGcalendar;
+			productReference = 1888838AC4E69BC8F91C87341DC60E73 /* WRGcalendar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = BCB205E936B9D846C0AD4B3540208C5F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1E17C234FB1EEF4D0231C29723959B33 /* Pods-WRGcalendar_Tests */,
+				85D8DCE7536A577CFA244BE252942DC0 /* WRGcalendar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B4DE785F26A74F26009DB45E6E3D2847 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8066B7E4B14B7832C8F158E4B956C6F /* ReplaceMe.swift in Sources */,
+				62C42CE01A03AAE190EB2CC53D02F7F4 /* WRGcalendar-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA64DF354235EE7B76D45EE75F3AB211 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4E06EBFBAD3588E84CB41E65AE4C843 /* Pods-WRGcalendar_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1CB18FAE4BDDFA522A782BED06B041C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WRGcalendar;
+			target = 85D8DCE7536A577CFA244BE252942DC0 /* WRGcalendar */;
+			targetProxy = 18AED5EC0D74F451A4455051C02EBD76 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		38F07193630DEA1875B0D45FF2688B95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 516639B3858F4C4E0253BB169E540B67 /* Pods-WRGcalendar_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WRGcalendar_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WRGcalendar_Tests/Pods-WRGcalendar_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WRGcalendar_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4D8F52F03C233DFEE9E8A6D1C589D81A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A61BA15276F33404601FAA236B92ADB8 /* WRGcalendar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WRGcalendar/WRGcalendar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WRGcalendar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WRGcalendar/WRGcalendar.modulemap";
+				PRODUCT_NAME = WRGcalendar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		731DC216E1A58545B559F6E0A2418060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B4501852A164C080E4A091F440A1C783 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C839FC780DA414D816DCFED25659730 /* Pods-WRGcalendar_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WRGcalendar_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WRGcalendar_Tests/Pods-WRGcalendar_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WRGcalendar_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F025BE25F871188DD7BAE1D98B098307 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A61BA15276F33404601FAA236B92ADB8 /* WRGcalendar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WRGcalendar/WRGcalendar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WRGcalendar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WRGcalendar/WRGcalendar.modulemap";
+				PRODUCT_NAME = WRGcalendar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */,
+				731DC216E1A58545B559F6E0A2418060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		835C930F29C582023A4AD13787DE5F0C /* Build configuration list for PBXNativeTarget "WRGcalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D8F52F03C233DFEE9E8A6D1C589D81A /* Debug */,
+				F025BE25F871188DD7BAE1D98B098307 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2EEDB412F50BC3CF37952A091E9EB1B /* Build configuration list for PBXNativeTarget "Pods-WRGcalendar_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4501852A164C080E4A091F440A1C783 /* Debug */,
+				38F07193630DEA1875B0D45FF2688B95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

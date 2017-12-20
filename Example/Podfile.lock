@@ -1,0 +1,16 @@
+PODS:
+  - WRGcalendar (0.1.0)
+
+DEPENDENCIES:
+  - WRGcalendar (from `../`)
+
+EXTERNAL SOURCES:
+  WRGcalendar:
+    :path: ../
+
+SPEC CHECKSUMS:
+  WRGcalendar: b9b03cd2de5da64247ef8fd69aaded3e2dc2f395
+
+PODFILE CHECKSUM: 29b35153ca829e6c797feb10b9c0359578351321
+
+COCOAPODS: 1.3.1
